@@ -1,0 +1,100 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  
+  font-family: "Inter",sans-serif;
+}
+body{
+  margin: 0;
+}
+
+/* header section  */
+.header{
+  display: flex;
+  background-color:  #F55A5A;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.header-text{
+  font-size: 0.75em;
+  padding: 25px 0;
+}
+
+
+/* card section  */
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid  
+  #F5F5F5;
+  height: 250px;
+ 
+ 
+}
+.card-container img{
+
+}
+
+.map-info{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  
+  font-size: .87em;
+  line-height: 13px;
+  
+}
+a.map-url{
+  font-size: .75em;
+  color: #918E9B;
+
+}
+.pointer{
+  width: 9px;
+}
+.card-info{
+  padding: 5px;
+  margin: 20px 0;
+  flex-basis: 60%;
+
+}
+#card-img{
+  /* width: 180px; */
+  flex-basis: 35%;
+  object-fit: cover;
+  height:80% ;
+  margin: 20px 0;
+  border-radius: 5%;
+}
+.dates{
+  font-size: 0.75em;
+  font-weight: 700;
+}
+.place{
+  font-weight: 700;font-size: 1.56em;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card-info p{
+  margin: 0;
+  font-size: 0.79em;
+}
+.map-info{
+  margin-top: 7px;
+}
+.map-url{
+  font-size: 0.62em;
+}
