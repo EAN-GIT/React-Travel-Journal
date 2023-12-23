@@ -1,0 +1,1 @@
+A minimalist React application designed for honing React skills. This project focuses on displaying travel entries as cards on the main page. Utilizing local data passed through props, each entry is showcased in a clean and organized layout. Perfect for practicing React component rendering and prop handling.
